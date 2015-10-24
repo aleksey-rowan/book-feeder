@@ -58,15 +58,22 @@
     }
   ],
   "dependencies": {
+    "async": "^1.4.2",
     "colors": "1.0.3",
     "corser": "~2.0.0",
     "director": "^1.2.8",
     "ecstatic": "~0.7.0",
+    "fs-extra": "^0.24.0",
     "http-proxy": "^1.8.1",
+    "moment": "^2.10.6",
+    "musicmetadata": "^2.0.2",
+    "node-uuid": "^1.4.3",
     "opener": "~1.4.0",
     "optimist": "0.6.x",
     "portfinder": "0.4.x",
-    "union": "~0.4.3"
+    "promise": "^7.0.4",
+    "union": "~0.4.3",
+    "walkdir": "0.0.10"
   },
   "devDependencies": {
     "common-style": "^3.0.0",
@@ -75,6 +82,9 @@
   },
   "bugs": {
     "url": "https://github.com/nodeapps/http-server/issues"
+  },
+  "engine": {
+      "node": ">=4.2.1"
   },
   "license": "MIT",
   "preferGlobal": "true",
