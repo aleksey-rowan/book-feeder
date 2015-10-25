@@ -1,13 +1,13 @@
 ﻿<item>
-  <guid isPermaLink="false">{guid}</guid>
-  <pubDate>{pubDate}</pubDate>
-  <!--, 25 Jun 2011 23:15:00 +0000-->
-  <category domain="http://www.blogger.com/atom/ns#">audiobook</category>
-  <title>{title}</title>
-  <description>&lt;img border="0" height="200" src="{thumbnail}" width="200" /&gt;{title}</description>
-  <link>{filelink}</link>
-  <author>flexaJ</author>
-  <media:thumbnail url="{thumbnail}" height="72" width="72" />
-  <enclosure url="{filelink}" length="{size}" type="audio/mpeg" />
-  <media:content url="{filelink}" fileSize="{size}" type="audio/mpeg" />
+    <guid isPermaLink="false">{guid}</guid>
+    <pubDate>{pubDate}</pubDate>
+    <!--, 25 Jun 2011 23:15:00 +0000-->
+    <category domain="http://www.blogger.com/atom/ns#">audiobook</category>
+    <title>{title}</title>
+    <description>&lt;img border="0" height="200" src="{thumbnail}" width="200" /&gt;{title}</description>
+    <link>{filelink}</link>
+    <author>flexaJ</author>
+    <media:thumbnail url="{thumbnail}" height="72" width="72" />
+    <enclosure url="{filelink}" length="{size}" type="audio/mpeg" />
+    <media:content url="{filelink}" fileSize="{size}" type="audio/mpeg" />
 </item>

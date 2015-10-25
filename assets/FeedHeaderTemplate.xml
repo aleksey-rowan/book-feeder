@@ -1,32 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:georss="http://www.georss.org/georss" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" version="2.0">
-  <channel>
-    <!--<atom:id>tag:blogger.com,1999:blog-7410602861008891815</atom:id>-->
-    <lastBuildDate>{date}</lastBuildDate>
-    <title>{title}</title>
-    <description>{description}</description>
-    <itunes:subtitle>{description}</itunes:subtitle>
-    <itunes:summary>{description}</itunes:summary>
-    <itunes:owner>
-      <itunes:email>glitch-bot@gmail.com</itunes:email>
-      <itunes:name>{description}</itunes:name>
-    </itunes:owner>
-    <itunes:author>{description}</itunes:author>
-    <link>http://twitter.com/glitch-bot</link>
-    <managingEditor>glitch-bot@gmail.com</managingEditor>
-    <generator>BookFeeder</generator>
-    <openSearch:totalResults>9999</openSearch:totalResults>
-    <openSearch:startIndex>1</openSearch:startIndex>
-    <openSearch:itemsPerPage>9999</openSearch:itemsPerPage>
-    <media:copyright>Creative Commons - Attribution, Noncommercial, No Derivative Works 3.0 License.</media:copyright>
-    <media:thumbnail url="{thumbnail}" />
-    <itunes:image href="{thumbnail}" />
-    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">AudioBooks</media:category>
-    <creativeCommons:license>http://creativecommons.org/licenses/by-nc-nd/3.0/</creativeCommons:license>
-    {items}
-    <language>en-us</language>
-    <copyright>Creative Commons - Attribution, Noncommercial, No Derivative Works 3.0 License.</copyright>
-    <media:credit role="author">glitch-bot</media:credit>
-    <media:rating>nonadult</media:rating>
-  </channel>
-</rss>
+    <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:georss="http://www.georss.org/georss" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+    xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" version="2.0">
+        <channel>
+            <!--<atom:id>tag:blogger.com,1999:blog-7410602861008891815</atom:id>-->
+            <lastBuildDate>{date}</lastBuildDate>
+            <title>{title}</title>
+            <description>{description}</description>
+            <itunes:subtitle>{description}</itunes:subtitle>
+            <itunes:summary>{description}</itunes:summary>
+            <itunes:owner>
+                <itunes:email>glitch-bot@gmail.com</itunes:email>
+                <itunes:name>{description}</itunes:name>
+            </itunes:owner>
+            <itunes:author>{description}</itunes:author>
+            <link>http://twitter.com/glitch-bot</link>
+            <managingEditor>glitch-bot@gmail.com</managingEditor>
+            <generator>BookFeeder</generator>
+            <openSearch:totalResults>9999</openSearch:totalResults>
+            <openSearch:startIndex>1</openSearch:startIndex>
+            <openSearch:itemsPerPage>9999</openSearch:itemsPerPage>
+            <media:copyright>Creative Commons - Attribution, Noncommercial, No Derivative Works 3.0 License.</media:copyright>
+            <media:thumbnail url="{thumbnail}" />
+            <itunes:image href="{thumbnail}" />
+            <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">AudioBooks</media:category>
+            <creativeCommons:license>http://creativecommons.org/licenses/by-nc-nd/3.0/</creativeCommons:license>
+            {items}
+            <language>en-us</language>
+            <copyright>Creative Commons - Attribution, Noncommercial, No Derivative Works 3.0 License.</copyright>
+            <media:credit role="author">glitch-bot</media:credit>
+            <media:rating>nonadult</media:rating>
+        </channel>
+    </rss>
